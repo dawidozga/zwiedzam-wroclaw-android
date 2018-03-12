@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wrocapp.zwiedzamwroclaw.SelectedItem"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/selectedItemBigImageURL"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="top"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/background" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/selectedItemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginTop="-30dp"
+                android:layout_marginRight="16dp"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_directions_white_24dp" />
+
+            <TextView
+                android:id="@+id/selectedItemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/selectedItemShortDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/selectedItemLongDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

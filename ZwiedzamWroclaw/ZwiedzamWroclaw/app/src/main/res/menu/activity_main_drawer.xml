@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_glowne"
+            android:icon="@drawable/ic_menu_glowne"
+            android:title="@string/main_menu" />
+        <item
+            android:id="@+id/nav_zabytki"
+            android:icon="@drawable/ic_zabytki"
+            android:title="@string/monuments" />
+        <item
+            android:id="@+id/nav_kultura"
+            android:icon="@drawable/ic_kultura"
+            android:title="@string/culture" />
+        <item
+            android:id="@+id/nav_rekreacja"
+            android:icon="@drawable/ic_rekreacja"
+            android:title="@string/recreation" />
+        <item
+            android:id="@+id/nav_rozrywka"
+            android:icon="@drawable/ic_rozrywka"
+            android:title="@string/entertainment" />
+    </group>
+
+<!--    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

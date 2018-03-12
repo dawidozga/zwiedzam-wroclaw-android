@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Zwiedzam Wrocław</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="monuments">Zabytki i atrakcje</string>
+    <string name="culture">Kultura</string>
+    <string name="recreation">Sport i rekreacja</string>
+    <string name="entertainment">Rozrywka</string>
+    <string name="main_menu">Menu Główne</string>
+    <string name="visit_wroclaw">Zwiedzam Wrocław</string>
+    <string name="advertising_slogan">Proste zwiedzanie</string>
+    <string name="map">Mapa</string>
+    <string name="please_wait">Proszę czekać</string>
+    <string name="loading_data">Ładowanie danych…</string>
+    <string name="finding_direction">Szukanie ścieżki…</string>
+    <string name="duration">Czas</string>
+    <string name="distance">Dystans</string>
+    <string name="error_toast">Błąd: Brak połączenia z bazą danych</string>
+    <string name="selected_item">Wybrany element: </string>
+    <string name="navigate">Nawiguj</string>
+    <string name="listItem">Lista atrakcji</string>
+    <string name="selectedItem">Wybrana atrakcja</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="sort">Sortuj:</string>
+    <string name="no_gps">Brak połączenia GPS</string>
+
+    <string-array name="sort_types">
+        <item>Polecane</item>
+        <item>Alfabetycznie</item>
+        <item>Najbliższa odległość</item>
+    </string-array>
+
+</resources>
